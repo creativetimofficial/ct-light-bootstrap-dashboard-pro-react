@@ -1,7 +1,7 @@
 # [Light Bootstrap Dashboard PRO React](http://lbd-pro-react.creative-tim.com/)
 [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/66/original/opt_lbdp_react_thumbnail.jpg)
+![alt text](http://s3.amazonaws.com/creativetim_bucket/products/66/opt_lbdp_react_thumbnail.jpg)
 
 **[Light Bootstrap Dashboard PRO React](http://lbd-react.creative-tim.com/)** is a premium admin dashboard template designed to be beautiful and simple. It is built on top of [React Bootstrap](https://react-bootstrap.github.io/), using [Light Bootstrap Dashboard PRO](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro) and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
@@ -11,7 +11,7 @@ It comes with 6 filter colors for the sidebar (`black`, `azure`,`green`,`orange`
 
 ## Links:
 
-+ [Live Preview](http://lbd-pro-react.creative-tim.com/)
++ [Live Preview](https://timcreative.github.io/light-bootstrap-dashboard-pro-react/#/dashboard)
 
 ## Quick Start:
 
@@ -63,119 +63,101 @@ Within the download you'll find the following directories and files:
 ```
 lbd-pro-react
 ├── CHANGELOG.md
-├── Documentation
-│   ├── css
-│   │   ├── demo.css
-│   │   ├── documentation.css
-│   │   └── light-bootstrap-dashboard.css
-│   ├── img
-│   │   ├── apple-icon.png
-│   │   ├── back.jpg
-│   │   ├── favicon.png
-│   │   └── tim-logo.png
-│   └── tutorial-components.html
 ├── README.md
-├── package-lock.json
 ├── package.json
+├── Documentation
+│   ├── css
+│   ├── img
+│   └── tutorial-components.html
 ├── public
-│   ├── apple-icon.png
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
+│   ├── apple-icon.png
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
 └── src
-    ├── assets
-    │   ├── css
-    │   │   ├── bootstrap.min.css
-    │   │   ├── demo.css
-    │   │   ├── light-bootstrap-dashboard.css.map
-    │   │   └── pe-icon-7-stroke.css
-    │   ├── fonts
-    │   ├── img
-    │   │   ├── faces
-    │   │   ├── flags
-    │   └── sass
-    │       ├── lbd
-    │       │   ├── mixins
-    │       │   └── plugins
-    │       ├── light-bootstrap-dashboard.css
-    │       └── light-bootstrap-dashboard.scss
-    ├── components
-    │   ├── Card
-    │   │   ├── Card.jsx
-    │   │   ├── MapCard.jsx
-    │   │   ├── StatsCard.jsx
-    │   │   └── UserCard.jsx
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── FormInputs
-    │   │   └── FormInputs.jsx
-    │   ├── Header
-    │   │   ├── Header.jsx
-    │   │   ├── HeaderLinks.jsx
-    │   │   └── PagesHeader.jsx
-    │   ├── Sidebar
-    │   │   └── Sidebar.jsx
-    │   └── Tasks
-    │       └── Tasks.jsx
-    ├── containers
-    │   ├── App
-    │   │   └── App.jsx
-    │   ├── Dash
-    │   │   └── Dash.jsx
-    │   └── Pages
-    │       └── Pages.jsx
-    ├── elements
-    │   ├── CustomButton
-    │   │   └── CustomButton.jsx
-    │   ├── CustomCheckbox
-    │   │   └── CustomCheckbox.jsx
-    │   └── CustomRadio
-    │       └── CustomRadio.jsx
     ├── index.js
-    ├── logo.svg
-    ├── registerServiceWorker.js
+    ├── assets
+    │   ├── css
+    │   ├── fonts
+    │   ├── img
+    │   │   ├── faces
+    │   │   └── flags
+    │   └── sass
+    │       ├── lbd
+    │       │   ├── mixins
+    │       │   └── plugins
+    │       ├── light-bootstrap-dashboard.scss
+    │       └── light-bootstrap-dashboard.css
+    ├── components
+    │   ├── Card
+    │   │   ├── Card.jsx
+    │   │   ├── MapCard.jsx
+    │   │   ├── StatsCard.jsx
+    │   │   └── UserCard.jsx
+    │   ├── CustomButton
+    │   │   └── CustomButton.jsx
+    │   ├── CustomCheckbox
+    │   │   └── CustomCheckbox.jsx
+    │   ├── CustomRadio
+    │   │   └── CustomRadio.jsx
+    │   ├── Footer
+    │   │   └── Footer.jsx
+    │   ├── FormInputs
+    │   │   └── FormInputs.jsx
+    │   ├── Header
+    │   │   ├── Header.jsx
+    │   │   ├── HeaderLinks.jsx
+    │   │   └── PagesHeader.jsx
+    │   ├── Sidebar
+    │   │   └── Sidebar.jsx
+    │   └── Tasks
+    │       └── Tasks.jsx
+    ├── layouts
+    │   ├── Dashboard
+    │   │   └── Dashboard.jsx
+    │   └── Pages
+    │       └── Pages.jsx
     ├── routes
-    │   ├── app.jsx
-    │   ├── dash.jsx
-    │   ├── index.jsx
-    │   └── pages.jsx
+    │   ├── dashboard.jsx
+    │   ├── index.jsx
+    │   └── pages.jsx
     ├── variables
-    │   ├── Variables.jsx
-    │   ├── chartsVariables.jsx
-    │   └── faVariables.jsx
+    │   ├── Variables.jsx
+    │   ├── chartsVariables.jsx
+    │   └── faVariables.jsx
     └── views
         ├── Calendar
-        │   └── Calendar.jsx
+        │   └── Calendar.jsx
         ├── Charts
-        │   └── Charts.jsx
+        │   └── Charts.jsx
         ├── Components
-        │   ├── Buttons.jsx
-        │   ├── GridSystem.jsx
-        │   ├── Icons.jsx
-        │   ├── Notifications.jsx
-        │   ├── Panels.jsx
-        │   ├── SweetAlertPage.jsx
-        │   └── Typography.jsx
+        │   ├── Buttons.jsx
+        │   ├── GridSystem.jsx
+        │   ├── Icons.jsx
+        │   ├── Notifications.jsx
+        │   ├── Panels.jsx
+        │   ├── SweetAlertPage.jsx
+        │   └── Typography.jsx
         ├── Dashboard
-        │   └── Dashboard.jsx
+        │   └── Dashboard.jsx
         ├── Forms
-        │   ├── ExtendedForms.jsx
-        │   ├── RegularForms.jsx
-        │   ├── ValidationForms.jsx
-        │   └── Wizard
-        │       ├── Step1.jsx
-        │       ├── Step2.jsx
-        │       ├── Step3.jsx
-        │       └── Wizard.jsx
+        │   ├── ExtendedForms.jsx
+        │   ├── RegularForms.jsx
+        │   ├── ValidationForms.jsx
+        │   └── Wizard
+        │       ├── Step1.jsx
+        │       ├── Step2.jsx
+        │       ├── Step3.jsx
+        │       └── Wizard.jsx
         ├── Maps
-        │   ├── FullScreenMap.jsx
-        │   ├── GoogleMaps.jsx
-        │   └── VectorMap.jsx
+        │   ├── FullScreenMap.jsx
+        │   ├── GoogleMaps.jsx
+        │   └── VectorMap.jsx
         ├── Pages
-        │   ├── LockScreenPage.jsx
-        │   ├── LoginPage.jsx
-        │   ├── RegisterPage.jsx
-        │   └── UserPage.jsx
+        │   ├── LockScreenPage.jsx
+        │   ├── LoginPage.jsx
+        │   ├── RegisterPage.jsx
+        │   └── UserPage.jsx
         └── Tables
             ├── DataTables.jsx
             ├── ExtendedTables.jsx
@@ -206,5 +188,5 @@ Instagram: <https://instagram.com/creativetimofficial>
 [CHANGELOG]: ./CHANGELOG.md
 
 [LICENSE]: ./LICENSE.md
-[version-badge]: https://img.shields.io/badge/version-1.0.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
