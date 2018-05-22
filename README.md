@@ -1,9 +1,9 @@
-# [Light Bootstrap Dashboard PRO React](http://lbd-pro-react.creative-tim.com/)
+# [Light Bootstrap Dashboard PRO React](https://creativetimofficial.github.io/light-bootstrap-dashboard-pro-react/#/dashboard)
 [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
-![alt text](http://s3.amazonaws.com/creativetim_bucket/products/66/opt_lbdp_react_thumbnail.jpg)
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/66/thumb/opt_lbdp_react_thumbnail.jpg?1509466309)
 
-**[Light Bootstrap Dashboard PRO React](http://lbd-react.creative-tim.com/)** is a premium admin dashboard template designed to be beautiful and simple. It is built on top of [React Bootstrap](https://react-bootstrap.github.io/), using [Light Bootstrap Dashboard PRO](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro) and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
+**[Light Bootstrap Dashboard PRO React](https://creativetimofficial.github.io/light-bootstrap-dashboard-pro-react/#/dashboard)** is a premium admin dashboard template designed to be beautiful and simple. It is built on top of [React Bootstrap](https://react-bootstrap.github.io/), using [Light Bootstrap Dashboard PRO](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro) and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
 The product represents a big suite of front-end developer tools that can help you jump start your project. We have created it thinking about things you actually need in a dashboard. Light Bootstrap Dashboard React contains multiple handpicked and optimized plugins. Everything is designed to fit with one another. As you will be able to see, the dashboard you can access on Creative Tim is a customization of this product.
 
@@ -11,7 +11,7 @@ It comes with 6 filter colors for the sidebar (`black`, `azure`,`green`,`orange`
 
 ## Links:
 
-+ [Live Preview](https://timcreative.github.io/light-bootstrap-dashboard-pro-react/#/dashboard)
++ [Live Preview](https://creativetimofficial.github.io/light-bootstrap-dashboard-pro-react/#/dashboard)
 
 ## Quick Start:
 
@@ -159,7 +159,7 @@ lbd-pro-react
         │   ├── RegisterPage.jsx
         │   └── UserPage.jsx
         └── Tables
-            ├── DataTables.jsx
+            ├── ReactTables.jsx
             ├── ExtendedTables.jsx
             └── RegularTables.jsx
 ```
@@ -188,5 +188,5 @@ Instagram: <https://instagram.com/creativetimofficial>
 [CHANGELOG]: ./CHANGELOG.md
 
 [LICENSE]: ./LICENSE.md
-[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg

@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.1] 2018-05-22
+### Bug fixing
+- Changed links for live preview, live documentation and issues
+- Changed links from `http` to `https`
+
 ## [1.1.0] 2018-04-12
 ### Bug fixing
 - Moved all the contents of `elements` folder to `components` folder and delete it
