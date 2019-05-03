@@ -1,5 +1,55 @@
 # Change Log
 
+## [1.2.0] 2019-05-03
+### Bug fixing
+- Renamed `src/layouts/Dashboard/Dashboard.jsx` to `src/layouts/Admin.jsx`
+- Renamed `src/layouts/Pages/Pages.jsx` to `src/layouts/Auth.jsx`
+- Renamed `src/views/Calendar/Calendar.jsx` to `src/views/Calendar.jsx`
+- Renamed `src/views/Charts/Charts.jsx` to `src/views/Charts.jsx`
+- Renamed `src/views/Dashboard/Dashboard.jsx` to `src/views/Dashboard.jsx`
+- Renamed `src/components/Header` to `src/components/Navbars`
+- Renamed `src/components/Navbars/Header.jsx` to `src/components/Navbars/AdminNavbar.jsx`
+- Renamed `src/components/Navbars/PagesHeader.jsx` to `src/components/Navbars/AuthNavbar.jsx`
+- Renamed `src/components/Navbars/HeaderLinks.jsx` to `src/components/Navbars/AdminNavbarLinks.jsx`
+- Changes caused by running [the prettier command](https://prettier.io/docs/en/install.html) for *.jsx*, *.js*, *.html* and *.css* files
+- Changed our buggy routing system, now it should work flawlessly, for more info, please refer to our [live docs here](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/documentation/routing-system)
+- Solved
+  - https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues/37
+  - https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues/35
+- Removed `.env` file and replaced it with `jsconfig.json`
+- Small bug fixes
+### Removed dependencies/components
+- Deleted `src/routes/*` folder
+- node-sass-chokidar
+- npm-run-all
+### Added dependencies/components
+- Added `src/routes.js` file (instead of the three files from `src/routes/*`)
+- @types/markerclustererplus@2.1.33 (to stop install warnings)
+- @types/googlemaps@3.30.19 (to stop install warnings)
+- @types/react@16.8.15 (to stop install warnings)
+- typescript@3.4.5 (to stop install warnings)
+- react-router@5.0.0 (react-router-dom auto-installs this package, but it is better to have them both inside package.json)
+### Update dependencies
+- history                       4.7.2   →          4.9.0
+- moment                       2.21.0   →         2.24.0
+- node-sass                     4.6.1   →         4.12.0
+- nouislider                   11.0.3   →         13.1.5
+- perfect-scrollbar             1.3.0   →          1.4.0
+- react                        16.2.0   →         16.8.6
+- react-big-calendar           0.19.0   →         0.20.4
+- react-bootstrap              0.32.1   →         0.32.4
+- react-bootstrap-sweetalert    4.2.3   →          4.4.1
+- react-chartist               0.13.1   →         0.13.3
+- react-datetime               2.14.0   →         2.16.3
+- react-dom                    16.2.0   →         16.8.6
+- react-jvectormap              0.0.2   →          0.0.9
+- react-router-dom              4.2.2   →          5.0.0
+- react-scripts                 1.1.1   →          3.0.0
+- react-select                  1.2.1   →          2.4.3
+- react-stepzilla               4.7.0   →          6.0.0
+- react-syntax-highlighter      7.0.2   →         10.2.1
+- react-table                   6.8.0   →          6.10.0
+
 ## [1.1.1] 2018-05-22
 ### Bug fixing
 - Changed links for live preview, live documentation and issues
