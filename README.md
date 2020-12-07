@@ -1,9 +1,3 @@
-<a href="https://www.creative-tim.com/campaign?utm_medium=social&utm_source=github&utm_campaign=cm-readme-2020">
-<img border="0" alt="Creative Tim Cyber Monday Offer" src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/cm-github-banner.jpg" >
-</a>
-
-
-
 # [Light Bootstrap Dashboard PRO React](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Ftimcreative.github.io%2Flight-bootstrap-dashboard-pro-react&text=Light%20Bootstrap%20Dashboard%20PRO%20React%20-%20Premium%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Flight-bootstrap-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Creactbootstrap%2Cbootstrap%2Ccreativetim)
 
 
