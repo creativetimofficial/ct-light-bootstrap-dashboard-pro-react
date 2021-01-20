@@ -2,7 +2,7 @@
 
 
 
-![version](https://img.shields.io/badge/version-1.2.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/light-bootstrap-dashboard-pro-react.gif)
 
@@ -73,7 +73,10 @@ Within the download you'll find the following directories and files:
 Light Bootstrap Dashboard PRO React
 .
 ├── CHANGELOG.md
+├── ISSUE_TEMPLATE.md
 ├── README.md
+├── gulpfile.js
+├── jsconfig.json
 ├── package.json
 ├── Documentation
 │   ├── css
@@ -87,91 +90,83 @@ Light Bootstrap Dashboard PRO React
 │   └── manifest.json
 └── src
     ├── index.js
-    ├── logo.svg
     ├── routes.js
     ├── assets
     │   ├── css
     │   │   ├── demo.css
+    │   │   ├── documentation.css
     │   │   ├── light-bootstrap-dashboard-pro-react.css
     │   │   ├── light-bootstrap-dashboard-pro-react.css.map
-    │   │   ├── light-bootstrap-dashboard-pro-react.min.css
-    │   │   └── pe-icon-7-stroke.css
+    │   │   └── light-bootstrap-dashboard-pro-react.min.css
     │   ├── fonts
+    │   │   ├── nucleo-icons.eot
+    │   │   ├── nucleo-icons.svg
+    │   │   ├── nucleo-icons.ttf
+    │   │   ├── nucleo-icons.woff
+    │   │   └── nucleo-icons.woff2
     │   ├── img
     │   │   ├── faces
-    │   │   ├── flags
-    │   └── sass
+    │   │   └── flags
+    │   └── scss
     │       ├── lbd
     │       │   ├── mixins
     │       │   └── plugins
+    │       ├── lbdpr
+    │       │   ├── plugins
+    │       │   └── react-differences.scss
     │       └── light-bootstrap-dashboard-pro-react.scss
     ├── layouts
-    │   ├── Admin.jsx
-    │   └── Auth.jsx
-    ├── variables
-    │   ├── Variables.jsx
-    │   ├── chartsVariables.jsx
-    │   └── faVariables.jsx
+    │   ├── Admin.js
+    │   └── Auth.js
     ├── components
-    │   ├── Card
-    │   │   ├── Card.jsx
-    │   │   ├── MapCard.jsx
-    │   │   ├── StatsCard.jsx
-    │   │   └── UserCard.jsx
-    │   ├── CustomButton
-    │   │   └── CustomButton.jsx
-    │   ├── CustomCheckbox
-    │   │   └── CustomCheckbox.jsx
-    │   ├── CustomRadio
-    │   │   └── CustomRadio.jsx
     │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── FormInputs
-    │   │   └── FormInputs.jsx
+    │   │   └── FixedPlugin.js
+    │   ├── Footers
+    │   │   ├── AdminFooter.js
+    │   │   └── AuthFooter.js
     │   ├── Navbars
-    │   │   ├── AdminNavbar.jsx
-    │   │   ├── AdminNavbarLinks.jsx
-    │   │   └── AuthNavbar.jsx
+    │   │   ├── AdminNavbar.js
+    │   │   └── AuthNavbar.js
+    │   ├── ReactTable
+    │   │   └── ReactTable.js
     │   ├── Sidebar
-    │   │   └── Sidebar.jsx
-    │   └── Tasks
-    │       └── Tasks.jsx
+    │   │   └── Sidebar.js
+    │   └── TagsInput
+    │       └── TagsInput.js
     └── views
-        ├── Calendar.jsx
-        ├── Charts.jsx
+        ├── Calendar.js
+        ├── Charts.js
         ├── Components
-        │   ├── Buttons.jsx
-        │   ├── GridSystem.jsx
-        │   ├── Icons.jsx
-        │   ├── Notifications.jsx
-        │   ├── Panels.jsx
-        │   ├── SweetAlertPage.jsx
-        │   └── Typography.jsx
-        ├── Dashboard.jsx
+        │   ├── Buttons.js
+        │   ├── GridSystem.js
+        │   ├── Icons.js
+        │   ├── Notifications.js
+        │   ├── Panels.js
+        │   ├── SweetAlertPage.js
+        │   └── Typography.js
+        ├── Dashboard.js
         ├── Forms
-        │   ├── ExtendedForms.jsx
-        │   ├── RegularForms.jsx
-        │   ├── ValidationForms.jsx
+        │   ├── ExtendedForms.js
+        │   ├── RegularForms.js
+        │   ├── ValidationForms.js
         │   └── Wizard
-        │       ├── Step1.jsx
-        │       ├── Step2.jsx
-        │       ├── Step3.jsx
-        │       └── Wizard.jsx
+        │       ├── Step1.js
+        │       ├── Step2.js
+        │       ├── Step3.js
+        │       └── Wizard.js
         ├── Maps
-        │   ├── FullScreenMap.jsx
-        │   ├── GoogleMaps.jsx
-        │   └── VectorMap.jsx
+        │   ├── FullScreenMap.js
+        │   ├── GoogleMaps.js
+        │   └── VectorMap.js
         ├── Pages
-        │   ├── LockScreenPage.jsx
-        │   ├── LoginPage.jsx
-        │   ├── RegisterPage.jsx
-        │   └── UserPage.jsx
+        │   ├── LockScreenPage.js
+        │   ├── LoginPage.js
+        │   ├── RegisterPage.js
+        │   └── UserPage.js
         └── Tables
-            ├── ExtendedTables.jsx
-            ├── ReactTables.jsx
-            └── RegularTables.jsx
+            ├── ExtendedTables.js
+            ├── ReactTables.js
+            └── RegularTables.js
 ```
 
 ## Browser Support
@@ -203,7 +198,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com?ref=github-lbd-pro-react)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com?ref=github-lbd-pro-react)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=github-lbd-pro-react)
 
 ## Useful Links
