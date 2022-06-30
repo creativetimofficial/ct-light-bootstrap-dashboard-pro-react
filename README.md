@@ -1,8 +1,6 @@
 # [Light Bootstrap Dashboard PRO React](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Ftimcreative.github.io%2Flight-bootstrap-dashboard-pro-react&text=Light%20Bootstrap%20Dashboard%20PRO%20React%20-%20Premium%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Flight-bootstrap-dashboard-pro-react%2F&via=creativetim&hashtags=react%2Creactbootstrap%2Cbootstrap%2Ccreativetim)
 
-
-
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-2.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-light-bootstrap-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-light-bootstrap-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/light-bootstrap-dashboard-pro-react.gif)
 
@@ -16,18 +14,17 @@ Let us know your thoughts below. And good luck with development!
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
 ## Versions
 
@@ -36,23 +33,21 @@ Let us know your thoughts below. And good luck with development!
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular-logo.jpg" width="60" height="60"/>](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2)
 [<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg" width="60" height="60"/>](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react)
 
-
-| HTML | VUE | Angular | React |
-| --- | --- | --- | --- |
-| [![Light Bootstrap Dashboard Pro HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro/light-bootstrap-dashboard-pro.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro) | [![Vue Light Bootstrap Dashboard PRO](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-light-bootstrap-dashboard-pro/vue-light-bootstrap-dashboard-pro.jpg)](https://www.creative-tim.com/product/vue-light-bootstrap-dashboard-pro)  | [![Light Bootstrap Dashboard Pro Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-angular/light-bootstrap-dashboard-pro-angular.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2)  | [![Light Bootstrap Dashboard Pro React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-react/light-bootstrap-dashboard-pro-react.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react)
+| HTML                                                                                                                                                                                                                                                    | VUE                                                                                                                                                                                                                                                                | Angular                                                                                                                                                                                                                                                                             | React                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Light Bootstrap Dashboard Pro HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro/light-bootstrap-dashboard-pro.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro) | [![Vue Light Bootstrap Dashboard PRO](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-light-bootstrap-dashboard-pro/vue-light-bootstrap-dashboard-pro.jpg)](https://www.creative-tim.com/product/vue-light-bootstrap-dashboard-pro) | [![Light Bootstrap Dashboard Pro Angular](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-angular/light-bootstrap-dashboard-pro-angular.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2) | [![Light Bootstrap Dashboard Pro React](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-react/light-bootstrap-dashboard-pro-react.jpg)](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react) |
 
 ## Demo
 
-| Dashboard Page | Extended Tables Page | Calendar Page | Widgets Page |
-| --- | --- | ---  | ---  |
-| [![Dashboard Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/dashboard-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/dashboard)  | [![Extended Tables Dashboard Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/extended-tables-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/extended-tables)  | [![Calendar Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/calendar-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/calendar)  | [![Charts Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/charts-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/charts)  
+| Dashboard Page                                                                                                                                                                                                                              | Extended Tables Page                                                                                                                                                                                                                                                    | Calendar Page                                                                                                                                                                                                                            | Widgets Page                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Dashboard Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/dashboard-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/dashboard) | [![Extended Tables Dashboard Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/extended-tables-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/extended-tables) | [![Calendar Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/calendar-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/calendar) | [![Charts Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/charts-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/admin/charts) |
 
-| Login Page | Lock Page | Register Page  |
-| --- | --- | ---  |
-| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-react/login-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/register-page)  | [![Lock Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/lock-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/lock-screen-page)  | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/register-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/login-page)  
+| Login Page                                                                                                                                                                                                                              | Lock Page                                                                                                                                                                                                                               | Register Page                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-pro-react/login-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/register-page) | [![Lock Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/lock-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/lock-screen-page) | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/light-bootstrap-dashboard-pro-react/register-page.png?raw=true)](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/auth/login-page) |
 
 [View More](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react)
-
 
 ## Quick start
 
@@ -60,10 +55,9 @@ Quick start options:
 
 - Buy from [Creative Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react)
 
-
 ## Documentation
-The documentation for the Light Bootstrap Dashboard PRO React is hosted at our [website](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/documentation).
 
+The documentation for the Light Bootstrap Dashboard PRO React is hosted at our [website](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/documentation).
 
 ## File Structure
 
@@ -175,8 +169,8 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-
 ## Resources
+
 - [Live Preview](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/?ref=github-lbd-pro-react)
 - Buy Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react?ref=github-lbd-pro-react
 - Documentation is [here](https://demos.creative-tim.com/light-bootstrap-dashboard-pro-react/#/documentation?ref=github-lbd-pro-react)
@@ -186,6 +180,7 @@ At present, we officially aim to support the last two versions of the following 
 - Light Bootstrap Dashboard React - [demo](https://www.creative-tim.com/product/light-bootstrap-dashboard-react?ref=github-lbd-pro-react)
 
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Light Bootstrap Dashboard PRO React. Here are some advices for our users that want to report an issue:
 
 1. Make sure that you are using the latest version of the Light Bootstrap Dashboard PRO. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=github-lbd-pro-react).
@@ -198,12 +193,12 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2020 Creative Tim (https://www.creative-tim.com?ref=github-lbd-pro-react)
+- Copyright 2022 Creative Tim (https://www.creative-tim.com?ref=github-lbd-pro-react)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=github-lbd-pro-react)
 
 ## Useful Links
 
- - [More products](https://www.creative-tim.com/bootstrap-themes?ref=github-lbd-pro-react) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=github-lbd-pro-react) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
